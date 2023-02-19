@@ -25,7 +25,7 @@ body, html {
 }
 
 .menu {
-    height: 6%;
+    height: 4%;
     background: #FFFFFF;
     color: #333333;
     font-size: 16px;
@@ -50,6 +50,7 @@ body, html {
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 2%;
+    margin-bottom: 2%;
     max-height: 80px;
     max-width: 80px;
     min-height: 80px;
@@ -165,7 +166,7 @@ body, html {
     font-family: Roboto;
     font-size: 24px;
     font-weight: 700;
-    margin: 2%;
+    margin: 5%;
 }
 
 .special_offer_header {
@@ -199,18 +200,139 @@ body, html {
     padding: 2%;
     flex-wrap: wrap;
 }
-.header_pink_logo_button_chair{
+
+.header_pink_logo_button_chair {
     background: #F13C6E;
     font-family: Roboto;
     font-size: 16px;
     font-weight: 400;
     color: #FFFFFF;
     border-radius: 40px;
-    border: 1px solid ;
+    border: 1px solid;
     height: 40px;
     width: 120px;
     max-width: 130px;
     min-height: 40px;
     margin-left: 5%;
     margin-bottom: 2%;
+}
+
+.pink_div_rectangles {
+    margin: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /*padding: 1%;*/
+}
+
+.pink_rectangle {
+    width: 35%;
+    height: auto;
+    background: #F13C6E;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2%;
+}
+
+.envelope {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 2%;
+
+}
+
+.pink_input {
+    border-radius: 5px;
+    height: 20%;
+    color: #E5E5E5;
+    padding: 1%;
+}
+
+.pink_h2 {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFFFFF;
+
+}
+
+.pink_p {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.icon_env {
+    width: 80%;
+    height: auto;
+}
+
+.table {
+    background: #FFFFFF;
+    border-collapse: separate;
+    border-spacing: 3em;
+    border: 3px solid #E5E5E5;
+
+}
+
+.table-div {
+    display: flex;
+    justify-content: center;
+}
+
+.footer_grey {
+    background: white;
+}
+
+.popular_cat {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 3%;
+    margin: 5%;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    align-items: center;
+
+}
+
+.list_div {
+    display: flex;
+    flex-direction: column;
+    gap: 1%;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 28px;
+
+}
+
+.media {
+    margin-left: 15%;
+    display: flex;
+    flex-direction: row;
+    gap: 1%;
+    padding: 1%;
+}
+
+.media_callback {
+    display: flex;
+    flex-direction: row;
+    gap: 1%
+}
+
+.footer {
+    background: #E5E5E5;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 3%;
 }
